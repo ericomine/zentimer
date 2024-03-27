@@ -66,6 +66,8 @@ class MainActivity : ComponentActivity() {
 
             override fun onFinish() {
                 timerAlpha = 0f
+                mediaPlayer.seekTo(0)
+                mediaPlayer.start()
             }
         }
 
